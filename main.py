@@ -228,13 +228,13 @@ def save_notification_message():
 load_notification_message()
 
 # Admin and Developer IDs
-ADMIN_ID = 6476899683
-DEVELOPER_ID = 6476899683
+ADMIN_ID = 8154706671
+DEVELOPER_ID = 8154706671
 BOT_PREFIX = ","
 # Telegram API Credentials
 api_id = 23434691
 api_hash = 'e9dc74b46e9ebb79e8cbbb2e9f953355'
-phone_number = '+8801771114251'
+phone_number = '+16018731950'
 #subscribe
 BD_TIMEZONE = pytz.timezone("Asia/Dhaka")
 
