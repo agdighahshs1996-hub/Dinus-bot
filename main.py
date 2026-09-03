@@ -230,7 +230,7 @@ load_notification_message()
 # Admin and Developer IDs
 ADMIN_ID = 8154706671
 DEVELOPER_ID = 8154706671
-BOT_PREFIX = ","
+BOT_PREFIX = "D"
 # Telegram API Credentials
 api_id = 23434691
 api_hash = 'e9dc74b46e9ebb79e8cbbb2e9f953355'
@@ -3296,10 +3296,7 @@ async def show_rates(event):
     rates_message += (
         "━━━━━━━━━━━━━━━\n"
         "☞︎︎︎ SM Payment ➪ +1.15%\n\n"
-        "✦ 𝐎𝐫𝐝𝐞𝐫 𝐍𝐨𝐰:\n"
-        "[Website Link](https://tgsgameshopbd.com/)\n"
-        "━━━━━━━━━━━━━━━\n"
-        "✦ 𝗣𝗿𝗼𝗱𝘂𝗰𝗲𝗱 𝗯𝘆  BIKROYPIN"
+        "✦ 𝗣𝗿𝗼𝗱𝘂𝗰𝗲𝗱 𝗯𝘆  DINU!UCBOT"
     )
 
     await event.reply(rates_message, parse_mode='md')
