@@ -1864,8 +1864,8 @@ async def limit_check_all(event):
 #mailload all thing
 ALLOWED_GROUP_ID = -1002256715924  # এখানে আপনার গ্রুপ আইডি দিন
 
-@client.on(events.NewMessage(pattern='BIKROYPIN'))
-async def bikroy_pin(event):
+@client.on(events.NewMessage(pattern='DINU!UCBOT'))
+async def Dinu_ucbot(event):
     # চেক করবে, মেসেজটি অনুমোদিত গ্রুপ থেকে এসেছে কিনা
     if event.chat_id != ALLOWED_GROUP_ID:
         return  # যদি অনুমোদিত গ্রুপ না হয়, তাহলে কিছুই করবে না
@@ -1873,7 +1873,7 @@ async def bikroy_pin(event):
     response = (
         "──────────────────────\n\n"
         "𝗬𝗘𝗦..... 𝗜'𝗺 𝗮 𝗽𝗮𝗶𝗱 𝘂𝘀𝗲𝗿 🙋🏻‍♂️\n\n"
-        "𝐈 𝐚𝐥𝐬𝐨 𝐚𝐠𝐫𝐞𝐞 𝐰𝐢𝐭𝐡 𝐁𝐈𝐊𝐑𝐎𝐘𝐏𝐈𝐍\n"
+        "𝐈 𝐚𝐥𝐬𝐨 𝐚𝐠𝐫𝐞𝐞 𝐰𝐢𝐭𝐡 Dinu!ucbot\n"
         "𝘁𝗲𝗿𝗺𝘀 𝗮𝗻𝗱 𝗰𝗼𝗻𝗱𝗶𝘁𝗶𝗼𝗻𝘀\n\n"
         "──────────────────────"
     )
